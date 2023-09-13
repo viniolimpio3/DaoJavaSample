@@ -1,0 +1,4 @@
+com\viniolimpio\dao\GenericDao.class
+com\viniolimpio\dao\Dao.class
+com\viniolimpio\dao\exception\PersistenciaException.class
+com\viniolimpio\dao\Conexao.class
