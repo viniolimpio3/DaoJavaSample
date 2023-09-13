@@ -18,7 +18,7 @@ public class Main {
         Connection connection = Conexao.getInstance().getConnection();
         Statement statement = connection.createStatement();
 
-        ResultSet resultSet = statement.executeQuery("select * from empresa.cargo");
+        ResultSet resultSet = statement.executeQuery("select * from empresa.funcionario");
         while (resultSet.next()) {
             System.out.println(resultSet.getString("nome"));
         }
