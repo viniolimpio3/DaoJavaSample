@@ -20,7 +20,7 @@ public class Main {
 
         ResultSet resultSet = statement.executeQuery("select * from empresa.funcionario");
         while (resultSet.next()) {
-            System.out.println(resultSet.getString("nome"));
+            System.out.println(resultSet.getString("nome") + " " + resultSet.getString("ID_FUNCIONARIO"));
         }
         if (connection != null && connection.isClosed()) {
             connection.close();
